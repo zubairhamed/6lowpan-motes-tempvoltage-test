@@ -1,0 +1,1528 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XABS2                               00000000    00000004 =           4. bytes (ABS,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000000  l_BSEG                          
+D:   00000000  l_BSEG_BYTES                    
+D:   00000000  l_CABS                          
+D:   00000000  l_GSINIT1                       
+D:   00000000  l_GSINIT5                       
+D:   00000000  l_IABS                          
+D:   00000000  l_ISEG                          
+D:   00000000  l_OSEG                          
+D:   00000000  l_PSEG                          
+D:   00000000  l_REG_BANK_1                    
+D:   00000000  l_REG_BANK_2                    
+D:   00000000  l_REG_BANK_3                    
+D:   00000000  l_RSEG                          
+D:   00000000  l_RSEG0                         
+D:   00000000  l_RSEG1                         
+D:   00000000  l_XABS                          
+D:   00000000  l__CODE                         
+D:   00000000  s_BSEG                          
+D:   00000000  s_CABS                          
+D:   00000000  s_DSEG                          
+D:   00000000  s_HOME                          
+D:   00000000  s_IABS                          
+D:   00000000  s_ISEG                          
+D:   00000000  s_PSEG                          
+D:   00000000  s_REG_BANK_0                    
+D:   00000000  s_RSEG                          
+D:   00000000  s_RSEG0                         
+D:   00000000  s_RSEG1                         
+D:   00000000  s_XABS                          
+D:   00000000  s_XABS2                         
+D:   00000001  l_BIT_BANK                      
+D:   00000003  l_GSFINAL                       
+D:   00000003  l_GSINIT0                       
+D:   00000004  l_XABS2                         
+D:   00000004  s_XSEG                          
+D:   00000008  l_REG_BANK_0                    
+D:   00000008  s_REG_BANK_1                    
+D:   0000000A  l_GSINIT2                       
+D:   00000010  s_REG_BANK_2                    
+D:   00000018  s_REG_BANK_3                    
+D:   00000020  s_BIT_BANK                      
+D:   00000020  s_BSEG_BYTES                    
+D:   00000020  s_OSEG                          
+D:   00000020  s__CODE                         
+D:   00000021  s_SSEG                          
+D:   00000022  l_GSINIT3                       
+D:   0000002A  l_GSINIT4                       
+D:   0000002C  l_GSINIT                        
+D:   00000074  l_DSEG                          
+D:   000000DF  l_SSEG                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XABS2                               00000000    00000004 =           4. bytes (ABS,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   00000100  l_IRAM                          
+D:   0000011A  l_XINIT                         
+D:   0000011A  l_XISEG                         
+D:   000001A9  l_CONST                         
+D:   000015C3  l_XSEG                          
+D:   000015C7  s_XISEG                         
+D:   00002C48  l_CSEG                          
+D:   0000506B  l_HOME                          
+D:   0000506B  s_GSINIT0                       
+D:   0000506E  s_GSINIT1                       
+D:   0000506E  s_GSINIT2                       
+D:   00005078  s_GSINIT3                       
+D:   0000509A  s_GSINIT4                       
+D:   000050C4  s_GSINIT                        
+D:   000050C4  s_GSINIT5                       
+D:   000050F0  s_GSFINAL                       
+D:   000050F3  s_CSEG                          
+D:   00007100  l_BANK3                         
+D:   00007D3B  s_CONST                         
+D:   00007EE4  s_XINIT                         
+D:   00007FDE  l_BANK1                         
+D:   00007FFC  l_BANK2                         
+D:   00018000  s_BANK1                         
+D:   00028000  s_BANK2                         
+D:   00038000  s_BANK3                         
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _fsgt
+     00000080  _P0                                neighbor_attr
+     00000080  _P0_0                              neighbor_attr
+     00000081  _P0_1                              neighbor_attr
+     00000081  _SP                                neighbor_attr
+     00000082  _DPL0                              neighbor_attr
+     00000082  _P0_2                              neighbor_attr
+     00000083  _DPH0                              neighbor_attr
+     00000083  _P0_3                              neighbor_attr
+     00000084  _DPL1                              neighbor_attr
+     00000084  _P0_4                              neighbor_attr
+     00000085  _DPH1                              neighbor_attr
+     00000085  _P0_5                              neighbor_attr
+     00000086  _P0_6                              neighbor_attr
+     00000086  _U0CSR                             neighbor_attr
+     00000087  _P0_7                              neighbor_attr
+     00000087  _PCON                              neighbor_attr
+     00000088  _IT0                               neighbor_attr
+     00000088  _TCON                              neighbor_attr
+     00000089  _P0IFG                             neighbor_attr
+     00000089  _RFERRIF                           neighbor_attr
+     0000008A  _IT1                               neighbor_attr
+     0000008A  _P1IFG                             neighbor_attr
+     0000008B  _P2IFG                             neighbor_attr
+     0000008B  _URX0IF                            neighbor_attr
+     0000008C  _PICTL                             neighbor_attr
+     0000008D  _ADCIF                             neighbor_attr
+     0000008D  _P1IEN                             neighbor_attr
+     0000008F  _P0INP                             neighbor_attr
+     0000008F  _URX1IF                            neighbor_attr
+     00000090  _P1                                neighbor_attr
+     00000090  _P1_0                              neighbor_attr
+     00000091  _P1_1                              neighbor_attr
+     00000091  _RFIRQF1                           neighbor_attr
+     00000092  _DPS                               neighbor_attr
+     00000092  _P1_2                              neighbor_attr
+     00000093  _MPAGE                             neighbor_attr
+     00000093  _P1_3                              neighbor_attr
+     00000093  __XPAGE                            neighbor_attr
+     00000094  _P1_4                              neighbor_attr
+     00000094  _T2CTRL                            neighbor_attr
+     00000095  _P1_5                              neighbor_attr
+     00000095  _ST0                               neighbor_attr
+     00000096  _P1_6                              neighbor_attr
+     00000096  _ST1                               neighbor_attr
+     00000097  _P1_7                              neighbor_attr
+     00000097  _ST2                               neighbor_attr
+     00000098  _ENCIF_0                           neighbor_attr
+     00000098  _S0CON                             neighbor_attr
+     00000099  _ENCIF_1                           neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009A  _IEN2                              neighbor_attr
+     0000009B  _S1CON                             neighbor_attr
+     0000009C  _T2EVTCFG                          neighbor_attr
+     0000009D  _SLEEPSTA                          neighbor_attr
+     0000009E  _CLKCONSTA                         neighbor_attr
+     0000009F  _FMAP                              neighbor_attr
+     0000009F  _PSBANK                            neighbor_attr
+     000000A0  _P2                                neighbor_attr
+     000000A0  _P2_0                              neighbor_attr
+     000000A1  _P2_1                              neighbor_attr
+     000000A1  _T2IRQF                            neighbor_attr
+     000000A2  _P2_2                              neighbor_attr
+     000000A2  _T2M0                              neighbor_attr
+     000000A3  _P2_3                              neighbor_attr
+     000000A3  _T2M1                              neighbor_attr
+     000000A4  _P2_4                              neighbor_attr
+     000000A4  _T2MOVF0                           neighbor_attr
+     000000A5  _P2_5                              neighbor_attr
+     000000A5  _T2MOVF1                           neighbor_attr
+     000000A6  _P2_6                              neighbor_attr
+     000000A6  _T2MOVF2                           neighbor_attr
+     000000A7  _P2_7                              neighbor_attr
+     000000A7  _T2IRQM                            neighbor_attr
+     000000A8  _IEN0                              neighbor_attr
+     000000A8  _RFERRIE                           neighbor_attr
+     000000A9  _ADCIE                             neighbor_attr
+     000000A9  _IP0                               neighbor_attr
+     000000AA  _URX0IE                            neighbor_attr
+     000000AB  _P0IEN                             neighbor_attr
+     000000AB  _URX1IE                            neighbor_attr
+     000000AC  _ENCIE                             neighbor_attr
+     000000AC  _P2IEN                             neighbor_attr
+     000000AD  _STIE                              neighbor_attr
+     000000AD  _STLOAD                            neighbor_attr
+     000000AE  _PMUX                              neighbor_attr
+     000000AF  _EA                                neighbor_attr
+     000000AF  _T1STAT                            neighbor_attr
+     000000B1  _ENCDI                             neighbor_attr
+     000000B2  _ENCDO                             neighbor_attr
+     000000B3  _ENCCS                             neighbor_attr
+     000000B4  _ADCCON1                           neighbor_attr
+     000000B5  _ADCCON2                           neighbor_attr
+     000000B6  _ADCCON3                           neighbor_attr
+     000000B8  _DMAIE                             neighbor_attr
+     000000B8  _IEN1                              neighbor_attr
+     000000B9  _IP1                               neighbor_attr
+     000000B9  _T1IE                              neighbor_attr
+     000000BA  _ADCL                              neighbor_attr
+     000000BA  _T2IE                              neighbor_attr
+     000000BB  _ADCH                              neighbor_attr
+     000000BB  _T3IE                              neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000BC  _RNDL                              neighbor_attr
+     000000BC  _T4IE                              neighbor_attr
+     000000BD  _P0IE                              neighbor_attr
+     000000BD  _RNDH                              neighbor_attr
+     000000BE  _SLEEPCMD                          neighbor_attr
+     000000BF  _RFERRF                            neighbor_attr
+     000000C0  _DMAIF                             neighbor_attr
+     000000C0  _IRCON                             neighbor_attr
+     000000C1  _T1IF                              neighbor_attr
+     000000C1  _U0DBUF                            neighbor_attr
+     000000C2  _T2IF                              neighbor_attr
+     000000C2  _U0BAUD                            neighbor_attr
+     000000C3  _T2MSEL                            neighbor_attr
+     000000C3  _T3IF                              neighbor_attr
+     000000C4  _T4IF                              neighbor_attr
+     000000C4  _U0UCR                             neighbor_attr
+     000000C5  _P0IF                              neighbor_attr
+     000000C5  _U0GCR                             neighbor_attr
+     000000C6  _CLKCONCMD                         neighbor_attr
+     000000C7  _MEMCTR                            neighbor_attr
+     000000C7  _STIF                              neighbor_attr
+     000000C9  _WDCTL                             neighbor_attr
+     000000CA  _T3CNT                             neighbor_attr
+     000000CB  _T3CTL                             neighbor_attr
+     000000CC  _T3CCTL0                           neighbor_attr
+     000000CD  _T3CC0                             neighbor_attr
+     000000CE  _T3CCTL1                           neighbor_attr
+     000000CF  _T3CC1                             neighbor_attr
+     000000D0  _P                                 neighbor_attr
+     000000D0  _PSW                               neighbor_attr
+     000000D1  _DMAIRQ                            neighbor_attr
+     000000D1  _F1                                neighbor_attr
+     000000D2  _DMA1CFGL                          neighbor_attr
+     000000D2  _OV                                neighbor_attr
+     000000D3  _DMA1CFGH                          neighbor_attr
+     000000D3  _RS0                               neighbor_attr
+     000000D4  _DMA0CFGL                          neighbor_attr
+     000000D4  _RS1                               neighbor_attr
+     000000D5  _DMA0CFGH                          neighbor_attr
+     000000D5  _F0                                neighbor_attr
+     000000D6  _AC                                neighbor_attr
+     000000D6  _DMAARM                            neighbor_attr
+     000000D7  _CY                                neighbor_attr
+     000000D7  _DMAREQ                            neighbor_attr
+     000000D8  _T3OVFIF                           neighbor_attr
+     000000D8  _TIMIF                             neighbor_attr
+     000000D9  _RFD                               neighbor_attr
+     000000D9  _T3CH0IF                           neighbor_attr
+     000000DA  _T1CC0L                            neighbor_attr
+     000000DA  _T3CH1IF                           neighbor_attr
+     000000DB  _T1CC0H                            neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DB  _T4OVFIF                           neighbor_attr
+     000000DC  _T1CC1L                            neighbor_attr
+     000000DC  _T4CH0IF                           neighbor_attr
+     000000DD  _T1CC1H                            neighbor_attr
+     000000DD  _T4CH1IF                           neighbor_attr
+     000000DE  _OVFIM                             neighbor_attr
+     000000DE  _T1CC2L                            neighbor_attr
+     000000DF  _T1CC2H                            neighbor_attr
+     000000E0  _ACC                               neighbor_attr
+     000000E0  _ACC_0                             neighbor_attr
+     000000E1  _ACC_1                             neighbor_attr
+     000000E1  _RFST                              neighbor_attr
+     000000E2  _ACC_2                             neighbor_attr
+     000000E2  _T1CNTL                            neighbor_attr
+     000000E3  _ACC_3                             neighbor_attr
+     000000E3  _T1CNTH                            neighbor_attr
+     000000E4  _ACC_4                             neighbor_attr
+     000000E4  _T1CTL                             neighbor_attr
+     000000E5  _ACC_5                             neighbor_attr
+     000000E5  _T1CCTL0                           neighbor_attr
+     000000E6  _ACC_6                             neighbor_attr
+     000000E6  _T1CCTL1                           neighbor_attr
+     000000E7  _ACC_7                             neighbor_attr
+     000000E7  _T1CCTL2                           neighbor_attr
+     000000E8  _IRCON2                            neighbor_attr
+     000000E8  _P2IF                              neighbor_attr
+     000000E9  _RFIRQF0                           neighbor_attr
+     000000E9  _UTX0IF                            neighbor_attr
+     000000EA  _T4CNT                             neighbor_attr
+     000000EA  _UTX1IF                            neighbor_attr
+     000000EB  _P1IF                              neighbor_attr
+     000000EB  _T4CTL                             neighbor_attr
+     000000EC  _T4CCTL0                           neighbor_attr
+     000000EC  _WDTIF                             neighbor_attr
+     000000ED  _T4CC0                             neighbor_attr
+     000000EE  _T4CCTL1                           neighbor_attr
+     000000EF  _T4CC1                             neighbor_attr
+     000000F0  _B                                 neighbor_attr
+     000000F0  _B_0                               neighbor_attr
+     000000F1  _B_1                               neighbor_attr
+     000000F1  _PERCFG                            neighbor_attr
+     000000F2  _APCFG                             neighbor_attr
+     000000F2  _B_2                               neighbor_attr
+     000000F3  _B_3                               neighbor_attr
+     000000F3  _P0SEL                             neighbor_attr
+     000000F4  _B_4                               neighbor_attr
+     000000F4  _P1SEL                             neighbor_attr
+     000000F5  _B_5                               neighbor_attr
+     000000F5  _P2SEL                             neighbor_attr
+     000000F6  _B_6                               neighbor_attr
+     000000F6  _P1INP                             neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F7  _B_7                               neighbor_attr
+     000000F7  _P2INP                             neighbor_attr
+     000000F8  _ACTIVE                            neighbor_attr
+     000000F8  _U1CSR                             neighbor_attr
+     000000F9  _TX_BYTE                           neighbor_attr
+     000000F9  _U1DBUF                            neighbor_attr
+     000000FA  _RX_BYTE                           neighbor_attr
+     000000FA  _U1BAUD                            neighbor_attr
+     000000FB  _ERR                               neighbor_attr
+     000000FB  _U1UCR                             neighbor_attr
+     000000FC  _FE                                neighbor_attr
+     000000FC  _U1GCR                             neighbor_attr
+     000000FD  _P0DIR                             neighbor_attr
+     000000FD  _SLAVE                             neighbor_attr
+     000000FE  _P1DIR                             neighbor_attr
+     000000FE  _RE                                neighbor_attr
+     000000FF  _MODE                              neighbor_attr
+     000000FF  _P2DIR                             neighbor_attr
+     00006000  _RFCORE_RAM                        neighbor_attr
+     00006000  _RXFIFO                            neighbor_attr
+     00006080  _TXFIFO                            neighbor_attr
+     00006100  _SRC_ADDR_TABLE                    neighbor_attr
+     00006160  _SRCRESMASK0                       neighbor_attr
+     00006161  _SRCRESMASK1                       neighbor_attr
+     00006162  _SRCRESMASK2                       neighbor_attr
+     00006163  _SRCRESINDEX                       neighbor_attr
+     00006164  _SRCEXTPENDEN0                     neighbor_attr
+     00006165  _SRCEXTPENDEN1                     neighbor_attr
+     00006166  _SRCEXTPENDEN2                     neighbor_attr
+     00006167  _SRCSHORTPENDEN0                   neighbor_attr
+     00006168  _SRCSHORTPENDEN1                   neighbor_attr
+     00006169  _SRCSHORTPENDEN2                   neighbor_attr
+     0000616A  _EXT_ADDR0                         neighbor_attr
+     0000616B  _EXT_ADDR1                         neighbor_attr
+     0000616C  _EXT_ADDR2                         neighbor_attr
+     0000616D  _EXT_ADDR3                         neighbor_attr
+     0000616E  _EXT_ADDR4                         neighbor_attr
+     0000616F  _EXT_ADDR5                         neighbor_attr
+     00006170  _EXT_ADDR6                         neighbor_attr
+     00006171  _EXT_ADDR7                         neighbor_attr
+     00006172  _PAN_ID0                           neighbor_attr
+     00006173  _PAN_ID1                           neighbor_attr
+     00006174  _SHORT_ADDR0                       neighbor_attr
+     00006175  _SHORT_ADDR1                       neighbor_attr
+     00006180  _FRMFILT0                          neighbor_attr
+     00006181  _FRMFILT1                          neighbor_attr
+     00006182  _SRCMATCH                          neighbor_attr
+     00006183  _SRCSHORTEN0                       neighbor_attr
+     00006184  _SRCSHORTEN1                       neighbor_attr
+     00006185  _SRCSHORTEN2                       neighbor_attr
+     00006186  _SRCEXTEN0                         neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00006187  _SRCEXTEN1                         neighbor_attr
+     00006188  _SRCEXTEN2                         neighbor_attr
+     00006189  _FRMCTRL0                          neighbor_attr
+     0000618A  _FRMCTRL1                          neighbor_attr
+     0000618B  _RXENABLE                          neighbor_attr
+     0000618C  _RXMASKSET                         neighbor_attr
+     0000618D  _RXMASKCLR                         neighbor_attr
+     0000618E  _FREQTUNE                          neighbor_attr
+     0000618F  _FREQCTRL                          neighbor_attr
+     00006190  _TXPOWER                           neighbor_attr
+     00006191  _TXCTRL                            neighbor_attr
+     00006192  _FSMSTAT0                          neighbor_attr
+     00006193  _FSMSTAT1                          neighbor_attr
+     00006194  _FIFOPCTRL                         neighbor_attr
+     00006195  _FSMCTRL                           neighbor_attr
+     00006196  _CCACTRL0                          neighbor_attr
+     00006197  _CCACTRL1                          neighbor_attr
+     00006198  _RSSI                              neighbor_attr
+     00006199  _RSSISTAT                          neighbor_attr
+     0000619A  _RXFIRST                           neighbor_attr
+     0000619B  _RXFIFOCNT                         neighbor_attr
+     0000619C  _TXFIFOCNT                         neighbor_attr
+     0000619D  _RXFIRST_PTR                       neighbor_attr
+     0000619E  _RXLAST_PTR                        neighbor_attr
+     0000619F  _RXP1_PTR                          neighbor_attr
+     000061A1  _TXFIRST_PTR                       neighbor_attr
+     000061A2  _TXLAST_PTR                        neighbor_attr
+     000061A3  _RFIRQM0                           neighbor_attr
+     000061A4  _RFIRQM1                           neighbor_attr
+     000061A5  _RFERRM                            neighbor_attr
+     000061A6  _MONMUX                            neighbor_attr
+     000061A6  _OPAMPMC                           neighbor_attr
+     000061A7  _RFRND                             neighbor_attr
+     000061A8  _MDMCTRL0                          neighbor_attr
+     000061A9  _MDMCTRL1                          neighbor_attr
+     000061AA  _FREQEST                           neighbor_attr
+     000061AB  _RXCTRL                            neighbor_attr
+     000061AC  _FSCTRL                            neighbor_attr
+     000061AD  _FSCAL0                            neighbor_attr
+     000061AE  _FSCAL1                            neighbor_attr
+     000061AF  _FSCAL2                            neighbor_attr
+     000061B0  _FSCAL3                            neighbor_attr
+     000061B1  _AGCCTRL0                          neighbor_attr
+     000061B2  _AGCCTRL1                          neighbor_attr
+     000061B3  _AGCCTRL2                          neighbor_attr
+     000061B4  _AGCCTRL3                          neighbor_attr
+     000061B5  _ADCTEST0                          neighbor_attr
+     000061B6  _ADCTEST1                          neighbor_attr
+     000061B7  _ADCTEST2                          neighbor_attr
+     000061B8  _MDMTEST0                          neighbor_attr
+     000061B9  _MDMTEST1                          neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000061BA  _DACTEST0                          neighbor_attr
+     000061BB  _DACTEST1                          neighbor_attr
+     000061BC  _DACTEST2                          neighbor_attr
+     000061BD  _ATEST                             neighbor_attr
+     000061BE  _PTEST0                            neighbor_attr
+     000061BF  _PTEST1                            neighbor_attr
+     000061C0  _CSPPROG0                          neighbor_attr
+     000061C1  _CSPPROG1                          neighbor_attr
+     000061C2  _CSPPROG2                          neighbor_attr
+     000061C3  _CSPPROG3                          neighbor_attr
+     000061C4  _CSPPROG4                          neighbor_attr
+     000061C5  _CSPPROG5                          neighbor_attr
+     000061C6  _CSPPROG6                          neighbor_attr
+     000061C7  _CSPPROG7                          neighbor_attr
+     000061C8  _CSPPROG8                          neighbor_attr
+     000061C9  _CSPPROG9                          neighbor_attr
+     000061CA  _CSPPROG10                         neighbor_attr
+     000061CB  _CSPPROG11                         neighbor_attr
+     000061CC  _CSPPROG12                         neighbor_attr
+     000061CD  _CSPPROG13                         neighbor_attr
+     000061CE  _CSPPROG14                         neighbor_attr
+     000061CF  _CSPPROG15                         neighbor_attr
+     000061D0  _CSPPROG16                         neighbor_attr
+     000061D1  _CSPPROG17                         neighbor_attr
+     000061D2  _CSPPROG18                         neighbor_attr
+     000061D3  _CSPPROG19                         neighbor_attr
+     000061D4  _CSPPROG20                         neighbor_attr
+     000061D5  _CSPPROG21                         neighbor_attr
+     000061D6  _CSPPROG22                         neighbor_attr
+     000061D7  _CSPPROG23                         neighbor_attr
+     000061E0  _CSPCTRL                           neighbor_attr
+     000061E1  _CSPSTAT                           neighbor_attr
+     000061E2  _CSPX                              neighbor_attr
+     000061E3  _CSPY                              neighbor_attr
+     000061E4  _CSPZ                              neighbor_attr
+     000061E5  _CSPT                              neighbor_attr
+     000061EB  _RFC_OBS_CTRL0                     neighbor_attr
+     000061EC  _RFC_OBS_CTRL1                     neighbor_attr
+     000061ED  _RFC_OBS_CTRL2                     neighbor_attr
+     000061FA  _TXFILTCFG                         neighbor_attr
+     00006200  _USBADDR                           neighbor_attr
+     00006201  _USBPOW                            neighbor_attr
+     00006202  _USBIIF                            neighbor_attr
+     00006204  _USBOIF                            neighbor_attr
+     00006206  _USBCIF                            neighbor_attr
+     00006207  _USBIIE                            neighbor_attr
+     00006209  _USBOIE                            neighbor_attr
+     0000620B  _USBCIE                            neighbor_attr
+     0000620C  _USBFRML                           neighbor_attr
+     0000620D  _USBFRMH                           neighbor_attr
+     0000620E  _USBINDEX                          neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000620F  _USBCTRL                           neighbor_attr
+     00006210  _USBMAXI                           neighbor_attr
+     00006211  _USBCS0                            neighbor_attr
+     00006211  _USBCSIL                           neighbor_attr
+     00006212  _USBCSIH                           neighbor_attr
+     00006213  _USBMAXO                           neighbor_attr
+     00006214  _USBCSOL                           neighbor_attr
+     00006215  _USBCSOH                           neighbor_attr
+     00006216  _USBCNT0                           neighbor_attr
+     00006216  _USBCNTL                           neighbor_attr
+     00006217  _USBCNTH                           neighbor_attr
+     00006220  _USBF0                             neighbor_attr
+     00006222  _USBF1                             neighbor_attr
+     00006224  _USBF2                             neighbor_attr
+     00006226  _USBF3                             neighbor_attr
+     00006228  _USBF4                             neighbor_attr
+     0000622A  _USBF5                             neighbor_attr
+     00006230  _I2CCFG                            neighbor_attr
+     00006231  _I2CSTAT                           neighbor_attr
+     00006232  _I2CDATA                           neighbor_attr
+     00006233  _I2CADDR                           neighbor_attr
+     00006234  _I2CWC                             neighbor_attr
+     00006235  _I2CIO                             neighbor_attr
+     00006243  _OBSSEL0                           neighbor_attr
+     00006244  _OBSSEL1                           neighbor_attr
+     00006245  _OBSSEL2                           neighbor_attr
+     00006246  _OBSSEL3                           neighbor_attr
+     00006247  _OBSSEL4                           neighbor_attr
+     00006248  _OBSSEL5                           neighbor_attr
+     00006249  _CHVER                             neighbor_attr
+     0000624A  _CHIPID                            neighbor_attr
+     0000624B  _TESTREG0                          neighbor_attr
+     00006260  _DBGDATA                           neighbor_attr
+     00006262  _SRCRC                             neighbor_attr
+     00006264  _BATTMON                           neighbor_attr
+     00006265  _IVCTRL                            neighbor_attr
+     00006270  _FCTL                              neighbor_attr
+     00006271  _FADDRL                            neighbor_attr
+     00006272  _FADDRH                            neighbor_attr
+     00006273  _FWDATA                            neighbor_attr
+     00006276  _CHIPINFO0                         neighbor_attr
+     00006277  _CHIPINFO1                         neighbor_attr
+     00006281  _IRCTL                             neighbor_attr
+     00006290  _CLD                               neighbor_attr
+     000062A0  _XX_T1CCTL0                        neighbor_attr
+     000062A1  _XX_T1CCTL1                        neighbor_attr
+     000062A2  _XX_T1CCTL2                        neighbor_attr
+     000062A3  _T1CCTL3                           neighbor_attr
+     000062A4  _T1CCTL4                           neighbor_attr
+     000062A6  _XX_T1CC0L                         neighbor_attr
+     000062A7  _XX_T1CC0H                         neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000062A8  _XX_T1CC1L                         neighbor_attr
+     000062A9  _XX_T1CC1H                         neighbor_attr
+     000062AA  _XX_T1CC2L                         neighbor_attr
+     000062AB  _XX_T1CC2H                         neighbor_attr
+     000062AC  _T1CC3L                            neighbor_attr
+     000062AD  _T1CC3H                            neighbor_attr
+     000062AE  _T1CC4L                            neighbor_attr
+     000062AF  _T1CC4H                            neighbor_attr
+     000062B0  _STCC                              neighbor_attr
+     000062B1  _STCS                              neighbor_attr
+     000062B2  _STCV0                             neighbor_attr
+     000062B3  _STCV1                             neighbor_attr
+     000062B4  _STCV2                             neighbor_attr
+     000062C0  _OPAMPC                            neighbor_attr
+     000062C1  _OPAMPS                            neighbor_attr
+     000062D0  _CMPCTL                            neighbor_attr
+     00007080  _X_P0                              neighbor_attr
+     00007086  _X_U0CSR                           neighbor_attr
+     00007089  _X_P0IFG                           neighbor_attr
+     0000708A  _X_P1IFG                           neighbor_attr
+     0000708B  _X_P2IFG                           neighbor_attr
+     0000708C  _X_PICTL                           neighbor_attr
+     0000708D  _X_P1IEN                           neighbor_attr
+     0000708F  _X_P0INP                           neighbor_attr
+     00007090  _X_P1                              neighbor_attr
+     00007091  _X_RFIRQF1                         neighbor_attr
+     00007093  _X_MPAGE                           neighbor_attr
+     00007093  _X__XPAGE                          neighbor_attr
+     00007094  _X_T2CTRL                          neighbor_attr
+     00007095  _X_ST0                             neighbor_attr
+     00007096  _X_ST1                             neighbor_attr
+     00007097  _X_ST2                             neighbor_attr
+     0000709C  _X_T2EVTCFG                        neighbor_attr
+     0000709D  _X_SLEEPSTA                        neighbor_attr
+     0000709E  _X_CLKCONSTA                       neighbor_attr
+     0000709F  _X_FMAP                            neighbor_attr
+     0000709F  _X_PSBANK                          neighbor_attr
+     000070A0  _X_P2                              neighbor_attr
+     000070A1  _X_T2IRQF                          neighbor_attr
+     000070A2  _X_T2M0                            neighbor_attr
+     000070A3  _X_T2M1                            neighbor_attr
+     000070A4  _X_T2MOVF0                         neighbor_attr
+     000070A5  _X_T2MOVF1                         neighbor_attr
+     000070A6  _X_T2MOVF2                         neighbor_attr
+     000070A7  _X_T2IRQM                          neighbor_attr
+     000070AB  _X_P0IEN                           neighbor_attr
+     000070AC  _X_P2IEN                           neighbor_attr
+     000070AD  _X_STLOAD                          neighbor_attr
+     000070AE  _X_PMUX                            neighbor_attr
+     000070AF  _X_T1STAT                          neighbor_attr
+     000070B1  _X_ENCDI                           neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000070B2  _X_ENCDO                           neighbor_attr
+     000070B3  _X_ENCCS                           neighbor_attr
+     000070B4  _X_ADCCON1                         neighbor_attr
+     000070B5  _X_ADCCON2                         neighbor_attr
+     000070B6  _X_ADCCON3                         neighbor_attr
+     000070BA  _X_ADCL                            neighbor_attr
+     000070BB  _X_ADCH                            neighbor_attr
+     000070BC  _X_RNDL                            neighbor_attr
+     000070BD  _X_RNDH                            neighbor_attr
+     000070BE  _X_SLEEPCMD                        neighbor_attr
+     000070BF  _X_RFERRF                          neighbor_attr
+     000070C1  _X_U0DBUF                          neighbor_attr
+     000070C2  _X_U0BAUD                          neighbor_attr
+     000070C3  _X_T2MSEL                          neighbor_attr
+     000070C4  _X_U0UCR                           neighbor_attr
+     000070C5  _X_U0GCR                           neighbor_attr
+     000070C6  _X_CLKCONCMD                       neighbor_attr
+     000070C7  _X_MEMCTR                          neighbor_attr
+     000070C9  _X_WDCTL                           neighbor_attr
+     000070CA  _X_T3CNT                           neighbor_attr
+     000070CB  _X_T3CTL                           neighbor_attr
+     000070CC  _X_T3CCTL0                         neighbor_attr
+     000070CD  _X_T3CC0                           neighbor_attr
+     000070CE  _X_T3CCTL1                         neighbor_attr
+     000070CF  _X_T3CC1                           neighbor_attr
+     000070D1  _X_DMAIRQ                          neighbor_attr
+     000070D2  _X_DMA1CFGL                        neighbor_attr
+     000070D3  _X_DMA1CFGH                        neighbor_attr
+     000070D4  _X_DMA0CFGL                        neighbor_attr
+     000070D5  _X_DMA0CFGH                        neighbor_attr
+     000070D6  _X_DMAARM                          neighbor_attr
+     000070D7  _X_DMAREQ                          neighbor_attr
+     000070D8  _X_TIMIF                           neighbor_attr
+     000070D9  _X_RFD                             neighbor_attr
+     000070DA  _X_T1CC0L                          neighbor_attr
+     000070DB  _X_T1CC0H                          neighbor_attr
+     000070DC  _X_T1CC1L                          neighbor_attr
+     000070DD  _X_T1CC1H                          neighbor_attr
+     000070DE  _X_T1CC2L                          neighbor_attr
+     000070DF  _X_T1CC2H                          neighbor_attr
+     000070E1  _X_RFST                            neighbor_attr
+     000070E2  _X_T1CNTL                          neighbor_attr
+     000070E3  _X_T1CNTH                          neighbor_attr
+     000070E4  _X_T1CTL                           neighbor_attr
+     000070E5  _X_T1CCTL0                         neighbor_attr
+     000070E6  _X_T1CCTL1                         neighbor_attr
+     000070E7  _X_T1CCTL2                         neighbor_attr
+     000070E9  _X_RFIRQF0                         neighbor_attr
+     000070EA  _X_T4CNT                           neighbor_attr
+     000070EB  _X_T4CTL                           neighbor_attr
+     000070EC  _X_T4CCTL0                         neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000070ED  _X_T4CC0                           neighbor_attr
+     000070EE  _X_T4CCTL1                         neighbor_attr
+     000070EF  _X_T4CC1                           neighbor_attr
+     000070F1  _X_PERCFG                          neighbor_attr
+     000070F2  _X_APCFG                           neighbor_attr
+     000070F3  _X_P0SEL                           neighbor_attr
+     000070F4  _X_P1SEL                           neighbor_attr
+     000070F5  _X_P2SEL                           neighbor_attr
+     000070F6  _X_P1INP                           neighbor_attr
+     000070F7  _X_P2INP                           neighbor_attr
+     000070F8  _X_U1CSR                           neighbor_attr
+     000070F9  _X_U1DBUF                          neighbor_attr
+     000070FA  _X_U1BAUD                          neighbor_attr
+     000070FB  _X_U1UCR                           neighbor_attr
+     000070FC  _X_U1GCR                           neighbor_attr
+     000070FD  _X_P0DIR                           neighbor_attr
+     000070FE  _X_P1DIR                           neighbor_attr
+     000070FF  _X_P2DIR                           neighbor_attr
+     00007800  _X_INFOPAGE                        neighbor_attr
+     0000780C  _X_IEEE_ADDR                       neighbor_attr
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BIT_BANK                            00000020    00000001 =           1. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000074 =         116. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000013  _bp                                _bp
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000021    000000DF =         223. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000021  __start__stack                     contiki_main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                00000004    000015C3 =        5571. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   000000E5  _serial_line_event_message         serial_line
+D:   00000258  _sensors_event                     sensors
+D:   0000025E  _tcpip_event                       tcpip
+D:   00000839  _uip_lladdr                        uip6
+D:   00000841  _uip_next_hdr                      uip6
+D:   00000844  _uip_aligned_buf                   uip6
+D:   00000934  _uip_appdata                       uip6
+D:   00000937  _uip_sappdata                      uip6
+D:   0000093A  _uip_len                           uip6
+D:   0000093C  _uip_slen                          uip6
+D:   0000093E  _uip_flags                         uip6
+D:   0000093F  _uip_conn                          uip6
+D:   00000945  _uip_udp_conn                      uip6
+D:   00000948  _uip_udp_conns                     uip6
+D:   00000B58  _packetbuf_attrs                   packetbuf
+D:   00000B88  _packetbuf_addrs                   packetbuf
+D:   00000C62  _sensors_flags                     smartrf_sensors
+D:   00000C65  _sleep_flag                        clock
+D:   00000C66  _uip_ds6_timer_periodic            uip_ds6
+D:   00000C70  _uip_ds6_timer_ra                  uip_ds6
+D:   00000C78  _uip_ds6_if                        uip_ds6
+D:   00000D55  _uip_ds6_nbr_cache                 uip_ds6
+D:   00000E0D  _uip_ds6_prefix_list               uip_ds6
+D:   00000E61  _uip_ds6_addr_size                 uip_ds6
+D:   00000E62  _uip_ds6_netif_addr_list_offset    uip_ds6
+D:   00000EA2  _rimeaddr_node_addr                rimeaddr
+D:   0000125B  _instance_table                    rpl_dag
+D:   00001320  _default_instance                  rpl_dag
+D:   00001350  _rimestats                         rimestats
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XISEG                               000015C7    0000011A =         282. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   000015C7  _mote_process                      motes_sensor_update
+D:   000015D1  _etimer_process                    etimer
+D:   000015DB  _serial_line_process               serial_line
+D:   000015E5  _process_list                      process
+D:   000015E8  _process_current                   process
+D:   000015EB  _sensors_process                   sensors
+D:   000015F5  _tcpip_process                     tcpip
+D:   0000161D  _viztool_process                   viztool
+D:   00001627  _uip_ext_bitmap                    uip6
+D:   00001628  _uip_ext_len                       uip6
+D:   00001629  _uip_ext_opt_offset                uip6
+D:   00001653  _sensors                           smartrf_sensors
+D:   00001687  _ctimer_process                    ctimer
+D:   0000169E  _rpl_of_etx                        rpl_of_etx
+D:   000016B2  _attr_etx                          neighbor_info
+D:   000016BD  _attr_timestamp                    neighbor_info
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    0000506B =       20587. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000006E  __sdcc_program_startup             contiki_main
+C:   0000019A  _main                              contiki_main
+C:   00000630  _port_0_isr                        button_sensor
+C:   000006BF  _uart0_set_input                   uart_intr
+C:   000006D2  __sdcc_banked_call                 
+C:   000006E4  __sdcc_banked_ret                  
+C:   000006E7  _energest_type_set                 energest
+C:   000006EA  _energest_init                     energest
+C:   000006ED  _energest_type_time                energest
+C:   000006F6  _energest_flush                    energest
+C:   000006F9  _putchar                           putchar
+C:   00000705  _clock_delay_usec                  clock
+C:   00000720  _clock_wait                        clock
+C:   00000767  _clock_time                        clock
+C:   00000770  _clock_seconds                     clock
+C:   00000782  _clock_init                        clock
+C:   0000084F  _clock_isr                         clock
+C:   0000095E  _rtimer_arch_init                  rtimer_arch
+C:   0000096E  _rtimer_arch_schedule              rtimer_arch
+C:   00000989  _rtimer_isr                        rtimer_arch
+C:   000009E0  _uip_ds6_init                      uip_ds6
+C:   00000BD9  _uip_ds6_periodic                  uip_ds6
+C:   000010F1  _uip_ds6_list_loop                 uip_ds6
+C:   000012BD  _uip_ds6_nbr_add                   uip_ds6
+C:   0000166E  _uip_ds6_nbr_rm                    uip_ds6
+C:   00001694  _uip_ds6_nbr_lookup                uip_ds6
+C:   0000172A  _uip_ds6_nbr_ll_lookup             uip_ds6
+C:   000017DD  _uip_ds6_prefix_add                uip_ds6
+C:   0000195F  _uip_ds6_prefix_rm                 uip_ds6
+C:   00001976  _uip_ds6_prefix_lookup             uip_ds6
+C:   000019D6  _uip_ds6_is_addr_onlink            uip_ds6
+C:   00001ABD  _uip_ds6_addr_add                  uip_ds6
+C:   00001CD5  _uip_ds6_addr_rm                   uip_ds6
+C:   00001DB2  _uip_ds6_addr_lookup               uip_ds6
+C:   00001E0E  _uip_ds6_get_link_local            uip_ds6
+C:   00001ED5  _uip_ds6_get_global                uip_ds6
+C:   00001F9E  _uip_ds6_maddr_add                 uip_ds6
+C:   0000204E  _uip_ds6_maddr_rm                  uip_ds6
+C:   00002065  _uip_ds6_maddr_lookup              uip_ds6
+C:   000020C1  _uip_ds6_aaddr_add                 uip_ds6
+C:   00002171  _uip_ds6_aaddr_rm                  uip_ds6
+C:   00002188  _uip_ds6_aaddr_lookup              uip_ds6
+C:   000021E4  _uip_ds6_select_src                uip_ds6
+C:   000024AE  _uip_ds6_set_addr_iid              uip_ds6
+C:   00002532  _get_match_length                  uip_ds6
+C:   000025F9  _uip_ds6_compute_reachable_time    uip_ds6
+C:   000026F1  _ringbuf_init                      ringbuf
+C:   00002772  _ringbuf_put                       ringbuf
+C:   00002895  _ringbuf_get                       ringbuf
+C:   00002971  _ringbuf_size                      ringbuf
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    0000506B =       20587. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00002996  _ringbuf_elements                  ringbuf
+C:   00002E8B  _dis_output                        rpl_icmp6
+C:   000037A7  _dio_output                        rpl_icmp6
+C:   00004C69  _dao_output                        rpl_icmp6
+C:   00004F4A  _dao_ack_output                    rpl_icmp6
+C:   00004FDE  _uip_rpl_input                     rpl_icmp6
+C:   0000503D  ___gptr_cmp                        
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             0000506B    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000506B  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000506E    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00005078    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00005078  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             0000509A    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000509A  __mcs51_genRAMCLEAR                
+C:   000050A0  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000050C4    0000002C =          44. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000050F0    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000050F3    00002C48 =       11336. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000050F3  ___fssub                           _fssub
+C:   000050FE  ___fsmul                           _fsmul
+C:   000051A1  fsgetargs                          _fsget2args
+C:   000051CF  fs_normalize_a                     _fsnormalize
+C:   00005202  __gptrput                          _gptrput
+C:   0000521D  __mulint                           _mulint
+C:   000052F5  _memcmp                            _memcmp
+C:   000053EA  ___fsadd                           _fsadd
+C:   000053ED  fsadd_direct_entry                 _fsadd
+C:   00005443  __modulong                         _modulong
+C:   00005578  _vsprintf                          sprintf
+C:   000055E2  _sprintf                           sprintf
+C:   00005646  __divulong                         _divulong
+C:   000056D0  _strncmp                           _strncmp
+C:   00005798  ___sint2fs                         _sint2fs
+C:   000057A5  ___fs2sint                         _fs2sint
+C:   000057D9  ___fs2uint                         _fs2uint
+C:   000057E4  _memset                            _memset
+C:   00005856  _memcpy                            _memcpy
+C:   000058EB  fs_round_and_return                _fsreturnval
+C:   00005903  fs_zerocheck_return                _fsreturnval
+C:   0000590C  fs_return_zero                     _fsreturnval
+C:   00005914  fs_direct_return                   _fsreturnval
+C:   00005922  fs_return_inf                      _fsreturnval
+C:   0000592F  fs_return_nan                      _fsreturnval
+C:   0000594D  _vprintf                           vprintf
+C:   0000598F  _printf                            vprintf
+C:   000059D4  fs_swap_a_b                        _fsswapargs
+C:   000059EE  _strlen                            _strlen
+C:   00005A08  ___fsdiv                           _fsdiv
+C:   00005ACB  __gptrget                          _gptrget
+C:   00005AE7  __mullong                          _mullong
+C:   00005CB3  ___slong2fs                        _slong2fs
+C:   00005CBC  slong2fs_doit                      _slong2fs
+C:   00005CE0  __moduint                          _moduint
+C:   00005D62  __divsint                          _divsint
+C:   00005DD8  __divuint                          _divuint
+C:   00005E25  fs_rshift_a                        _fsrshift
+C:   00005E68  ___fs2slong                        _fs2slong
+C:   00005EC3  __sdcc_external_startup            _startup
+C:   00005EC7  fsgetarg                           _fsget1arg
+C:   00006BE1  __print_format                     printf_large
+C:   000079D7  ___fs2ulong                        _fs2ulong
+C:   000079D9  fs2ulong_begin                     _fs2ulong
+C:   000079FE  _memmove                           _memmove
+C:   00007B82  ___fslt                            _fslt
+C:   00007BB2  fs_compare_uint32                  _fscmp
+C:   00007BD0  fs_check_negative_zeros            _fscmp
+C:   00007BFB  __divslong                         _divslong
+C:   00007CF8  ___ulong2fs                        _ulong2fs
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000050F3    00002C48 =       11336. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00007D01  ulong2fs_doit                      _ulong2fs
+C:   00007D0B  ___fsgt                            _fsgt
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00007D3B    000001A9 =         425. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00007D93  _autostart_processes               motes_sensor_update
+C:   00007E19  _adc_sensor                        adc_sensor
+C:   00007E29  _button_1_sensor                   button_sensor
+C:   00007E3C  _cc2530_rf_driver                  cc2530_rf
+C:   00007E6E  _rimeaddr_null                     rimeaddr
+C:   00007E76  _csma_driver                       csma
+C:   00007E98  _nullrdc_driver                    nullrdc
+C:   00007EB8  _unc_llconf                        sicslowpan
+C:   00007EBC  _unc_ctxconf                       sicslowpan
+C:   00007EC0  _unc_mxconf                        sicslowpan
+C:   00007EC4  _llprefix                          sicslowpan
+C:   00007ECA  _sicslowpan_driver                 sicslowpan
+C:   00007EDE  _framer_802154                     framer_802154
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XINIT                               00007EE4    0000011A =         282. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK3                               00038000    00007100 =       28928. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000386D4  _leds_init                         leds
+C:   000386E9  _leds_blink                        leds
+C:   00038720  _leds_get                          leds
+C:   0003872E  _leds_on                           leds
+C:   0003874E  _leds_off                          leds
+C:   0003876A  _leds_toggle                       leds
+C:   00038776  _leds_invert                       leds
+C:   0003878E  _watchdog_init                     watchdog
+C:   00038794  _watchdog_start                    watchdog
+C:   0003879A  _watchdog_periodic                 watchdog
+C:   000387AD  _watchdog_reboot                   watchdog
+C:   000387BB  _rtimer_init                       rtimer
+C:   000387C7  _rtimer_set                        rtimer
+C:   0003887E  _rtimer_run_next                   rtimer
+C:   00038959  _serial_line_input_byte            serial_line
+C:   00038B8B  _serial_line_init                  serial_line
+C:   00038C77  _sensors_first                     sensors
+C:   00038C8B  _sensors_next                      sensors
+C:   00038CCD  _sensors_changed                   sensors
+C:   00038D03  _sensors_find                      sensors
+C:   000390CA  _cc2530_rf_channel_set             cc2530_rf
+C:   00039107  _cc2530_rf_power_set               cc2530_rf
+C:   00039114  _cc2530_rf_set_addr                cc2530_rf
+C:   000395EA  _putstring                         debug
+C:   0003961D  _puthex                            debug
+C:   0003964B  _putbin                            debug
+C:   00039680  _putdec                            debug
+C:   000396C1  _netstack_init                     netstack
+C:   00039768  _timer_set                         timer
+C:   000397B7  _timer_reset                       timer
+C:   000397F6  _timer_restart                     timer
+C:   00039827  _timer_expired                     timer
+C:   00039892  _timer_remaining                   timer
+C:   000398F7  _queuebuf_init                     queuebuf
+C:   00039927  _queuebuf_new_from_packetbuf       queuebuf
+C:   00039B3D  _queuebuf_update_attr_from_packe   queuebuf
+C:   00039B7A  _queuebuf_free                     queuebuf
+C:   00039C66  _queuebuf_to_packetbuf             queuebuf
+C:   00039E8D  _queuebuf_dataptr                  queuebuf
+C:   00039F4D  _queuebuf_datalen                  queuebuf
+C:   00039F68  _queuebuf_addr                     queuebuf
+C:   00039F99  _queuebuf_attr                     queuebuf
+C:   00039FD3  _queuebuf_debug_print              queuebuf
+C:   00039FD6  _packetbuf_clear                   packetbuf
+C:   0003A00E  _packetbuf_clear_hdr               packetbuf
+C:   0003A017  _packetbuf_copyfrom                packetbuf
+C:   0003A095  _packetbuf_compact                 packetbuf
+C:   0003A1D3  _packetbuf_copyto_hdr              packetbuf
+C:   0003A250  _packetbuf_copyto                  packetbuf
+C:   0003A371  _packetbuf_hdralloc                packetbuf
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK3                               00038000    00007100 =       28928. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0003A3C5  _packetbuf_hdr_remove              packetbuf
+C:   0003A3D1  _packetbuf_hdrreduce               packetbuf
+C:   0003A40C  _packetbuf_set_datalen             packetbuf
+C:   0003A41A  _packetbuf_dataptr                 packetbuf
+C:   0003A447  _packetbuf_hdrptr                  packetbuf
+C:   0003A466  _packetbuf_reference               packetbuf
+C:   0003A49D  _packetbuf_is_reference            packetbuf
+C:   0003A4E7  _packetbuf_reference_ptr           packetbuf
+C:   0003A4FB  _packetbuf_datalen                 packetbuf
+C:   0003A50A  _packetbuf_hdrlen                  packetbuf
+C:   0003A519  _packetbuf_totlen                  packetbuf
+C:   0003A548  _packetbuf_attr_clear              packetbuf
+C:   0003A5CF  _packetbuf_attr_copyto             packetbuf
+C:   0003A631  _packetbuf_attr_copyfrom           packetbuf
+C:   0003A689  _packetbuf_set_attr                packetbuf
+C:   0003A6AB  _packetbuf_attr                    packetbuf
+C:   0003A6C7  _packetbuf_set_addr                packetbuf
+C:   0003A704  _packetbuf_addr                    packetbuf
+C:   0003A71F  _memb_init                         memb
+C:   0003A827  _memb_alloc                        memb
+C:   0003A975  _memb_free                         memb
+C:   0003AAF7  _memb_inmemb                       memb
+C:   0003AC17  _leds_arch_init                    leds_arch
+C:   0003AC24  _leds_arch_get                     leds_arch
+C:   0003AC43  _leds_arch_set                     leds_arch
+C:   0003AC65  _stimer_set                        stimer
+C:   0003ACD3  _stimer_reset                      stimer
+C:   0003AD70  _stimer_restart                    stimer
+C:   0003ADAE  _stimer_expired                    stimer
+C:   0003AE7C  _stimer_remaining                  stimer
+C:   0003AEF7  _stimer_elapsed                    stimer
+C:   0003AF48  _uart0_init                        uart0
+C:   0003AF75  _uart0_writeb                      uart0
+C:   0003AF83  _uip_icmp6_echo_request_input      uip_icmp6
+C:   0003B2E2  _uip_icmp6_error_output            uip_icmp6
+C:   0003B608  _uip_icmp6_send                    uip_icmp6
+C:   0003B744  _list_init                         list
+C:   0003B759  _list_head                         list
+C:   0003B770  _list_copy                         list
+C:   0003B7AE  _list_tail                         list
+C:   0003B804  _list_add                          list
+C:   0003B8C0  _list_push                         list
+C:   0003B957  _list_chop                         list
+C:   0003BA9B  _list_pop                          list
+C:   0003BB08  _list_remove                       list
+C:   0003BC62  _list_length                       list
+C:   0003BCAE  _list_insert                       list
+C:   0003BD63  _list_item_next                    list
+C:   0003BD98  _random_rand                       random
+C:   0003BDB0  _random_init                       random
+C:   0003BE18  _rpl_verify_header                 rpl_ext_header
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK3                               00038000    00007100 =       28928. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0003C143  _rpl_update_header_empty           rpl_ext_header
+C:   0003C307  _rpl_update_header_final           rpl_ext_header
+C:   0003C4EB  _rpl_remove_header                 rpl_ext_header
+C:   0003C586  _rpl_invert_header                 rpl_ext_header
+C:   0003C61F  _rimeaddr_copy                     rimeaddr
+C:   0003C677  _rimeaddr_cmp                      rimeaddr
+C:   0003C6DE  _rimeaddr_set_node_addr            rimeaddr
+C:   0003C702  _uip_debug_ipaddr_print            uip_debug
+C:   0003C839  _uip_debug_lladdr_print            uip_debug
+C:   0003C8AB  _uip_udp_packet_send               uip_udp_packet
+C:   0003C942  _uip_udp_packet_sendto             uip_udp_packet
+C:   0003CDFB  _ctimer_init                       ctimer
+C:   0003CE39  _ctimer_set                        ctimer
+C:   0003CFBF  _ctimer_reset                      ctimer
+C:   0003D08C  _ctimer_restart                    ctimer
+C:   0003D159  _ctimer_stop                       ctimer
+C:   0003D218  _ctimer_expired                    ctimer
+C:   0003DF3D  _rpl_reset_periodic_timer          rpl_timers
+C:   0003DFD3  _rpl_reset_dio_timer               rpl_timers
+C:   0003E18A  _rpl_schedule_dao                  rpl_timers
+C:   0003EB48  _neighbor_info_packet_sent         neighbor_info
+C:   0003EC06  _neighbor_info_packet_received     neighbor_info
+C:   0003EC61  _neighbor_info_subscribe           neighbor_info
+C:   0003ECB5  _neighbor_info_get_metric          neighbor_info
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK2                               00028000    00007FFC =       32764. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000285EA  _etimer_request_poll               etimer
+C:   0002871E  _etimer_set                        etimer
+C:   00028761  _etimer_reset                      etimer
+C:   0002878E  _etimer_restart                    etimer
+C:   000287BB  _etimer_adjust                     etimer
+C:   0002880D  _etimer_expired                    etimer
+C:   00028856  _etimer_expiration_time            etimer
+C:   00028888  _etimer_start_time                 etimer
+C:   0002889A  _etimer_pending                    etimer
+C:   000288D3  _etimer_next_expiration_time       etimer
+C:   000288FA  _etimer_stop                       etimer
+C:   00028A4E  _process_alloc_event               process
+C:   00028A5A  _process_start                     process
+C:   0002904E  _process_exit                      process
+C:   0002907A  _process_init                      process
+C:   000292EA  _process_run                       process
+C:   0002931D  _process_nevents                   process
+C:   00029337  _process_post                      process
+C:   000293BD  _process_post_synch                process
+C:   00029415  _process_poll                      process
+C:   00029453  _process_is_running                process
+C:   00029481  _tcpip_output                      tcpip
+C:   000294BF  _tcpip_set_outputfunc              tcpip
+C:   00029552  _udp_attach                        tcpip
+C:   000295A3  _udp_new                           tcpip
+C:   00029655  _udp_broadcast_new                 tcpip
+C:   000298AF  _tcpip_input                       tcpip
+C:   000298C6  _tcpip_ipv6_output                 tcpip
+C:   00029C6E  _tcpip_poll_udp                    tcpip
+C:   00029C96  _tcpip_uipcall                     tcpip
+C:   0002AA48  _uip_chksum                        uip6
+C:   0002AA8A  _uip_ipchksum                      uip6
+C:   0002ABA7  _uip_icmp6chksum                   uip6
+C:   0002ABBA  _uip_udpchksum                     uip6
+C:   0002ABCD  _uip_init                          uip6
+C:   0002AC12  _remove_ext_hdr                    uip6
+C:   0002ACC2  _uip_udp_new                       uip6
+C:   0002B04C  _uip_process                       uip6
+C:   0002BABF  _uip_htons                         uip6
+C:   0002BAD8  _uip_htonl                         uip6
+C:   0002BB24  _uip_send                          uip6
+C:   0002BD9A  _uip_ds6_notification_add          uip_ds6_route
+C:   0002BDFB  _uip_ds6_notification_rm           uip_ds6_route
+C:   0002BE2A  _uip_ds6_route_init                uip_ds6_route
+C:   0002BE99  _uip_ds6_route_list_head           uip_ds6_route
+C:   0002BEBC  _uip_ds6_route_num_routes          uip_ds6_route
+C:   0002BEDD  _uip_ds6_route_lookup              uip_ds6_route
+C:   0002C04D  _uip_ds6_route_add                 uip_ds6_route
+C:   0002C21B  _uip_ds6_route_rm                  uip_ds6_route
+C:   0002C340  _uip_ds6_route_rm_by_nexthop       uip_ds6_route
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK2                               00028000    00007FFC =       32764. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0002C4B2  _uip_ds6_defrt_add                 uip_ds6_route
+C:   0002C685  _uip_ds6_defrt_rm                  uip_ds6_route
+C:   0002C79B  _uip_ds6_defrt_lookup              uip_ds6_route
+C:   0002C889  _uip_ds6_defrt_choose              uip_ds6_route
+C:   0002C999  _uip_ds6_defrt_periodic            uip_ds6_route
+C:   0002CAE5  _uip_nd6_ns_input                  uip_nd6
+C:   0002D070  _uip_nd6_ns_output                 uip_nd6
+C:   0002D396  _uip_nd6_na_input                  uip_nd6
+C:   0002E973  _rpl_purge_routes                  rpl
+C:   0002EB0B  _rpl_remove_routes                 rpl
+C:   0002EBD7  _rpl_remove_routes_by_nexthop      rpl
+C:   0002ED0F  _rpl_add_route                     rpl
+C:   0002F104  _rpl_ipv6_neighbor_callback        rpl
+C:   0002F1F2  _rpl_init                          rpl
+C:   0002F4F4  _frame802154_hdrlen                frame802154
+C:   0002F540  _frame802154_create                frame802154
+C:   0002F967  _frame802154_parse                 frame802154
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BANK1                               00018000    00007FDE =       32734. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00018000  _autostart_start                   autostart
+C:   00018083  _autostart_exit                    autostart
+C:   000180F9  _soc_init                          soc
+C:   00018887  _rpl_set_root                      rpl_dag
+C:   00018DD8  _rpl_repair_root                   rpl_dag
+C:   000191EA  _rpl_set_prefix                    rpl_dag
+C:   0001931A  _rpl_set_default_route             rpl_dag
+C:   00019484  _rpl_alloc_instance                rpl_dag
+C:   000195A7  _rpl_alloc_dag                     rpl_dag
+C:   000197B9  _rpl_set_default_instance          rpl_dag
+C:   000197CD  _rpl_free_instance                 rpl_dag
+C:   00019918  _rpl_free_dag                      rpl_dag
+C:   000199FE  _rpl_add_parent                    rpl_dag
+C:   00019C53  _rpl_find_parent                   rpl_dag
+C:   00019EE3  _rpl_find_parent_any_dag           rpl_dag
+C:   0001A047  _rpl_select_dag                    rpl_dag
+C:   0001AA01  _rpl_select_parent                 rpl_dag
+C:   0001ABEF  _rpl_remove_parent                 rpl_dag
+C:   0001AC94  _rpl_nullify_parent                rpl_dag
+C:   0001ADD9  _rpl_move_parent                   rpl_dag
+C:   0001B024  _rpl_get_any_dag                   rpl_dag
+C:   0001B0D6  _rpl_get_instance                  rpl_dag
+C:   0001B183  _rpl_find_of                       rpl_dag
+C:   0001B22A  _rpl_join_instance                 rpl_dag
+C:   0001BA21  _rpl_add_dag                       rpl_dag
+C:   0001C52C  _rpl_local_repair                  rpl_dag
+C:   0001C62F  _rpl_recalculate_ranks             rpl_dag
+C:   0001C822  _rpl_process_parent_event          rpl_dag
+C:   0001C9F5  _rpl_process_dio                   rpl_dag
+C:   0001D26B  _rime_sniffer_add                  sicslowpan
+C:   0001D27E  _rime_sniffer_remove               sicslowpan
+C:   0001F4B8  _sicslowpan_init                   sicslowpan
+C:   0001F5C7  _neighbor_attr_list_neighbors      neighbor_attr
+C:   0001F77C  _neighbor_attr_register            neighbor_attr
+C:   0001F850  _neighbor_attr_has_neighbor        neighbor_attr
+C:   0001F88D  _neighbor_attr_add_neighbor        neighbor_attr
+C:   0001FA97  _neighbor_attr_remove_neighbor     neighbor_attr
+C:   0001FB2B  _neighbor_attr_get_data            neighbor_attr
+C:   0001FBFD  _neighbor_attr_set_data            neighbor_attr
+C:   0001FD7A  _neighbor_attr_tick                neighbor_attr
+C:   0001FDA5  _neighbor_attr_get_timeout         neighbor_attr
+C:   0001FF68  _neighbor_attr_set_timeout         neighbor_attr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+
+Files Linked                              [ module(s) ]
+
+obj_cc2530dk/contiki-main.rel             [  ]
+obj_cc2530dk/motes-sensor-update.app.rel  [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fssub.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/adc-sensor.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/leds.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/watchdog.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/etimer.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsmul.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/button-sensor.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uart-intr.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rtimer.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsget2args.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ crtclear.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/serial-line.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/process.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsnormalize.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ crtbank.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/sensors.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/cc2530-rf.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ crtxinit.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/debug.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/netstack.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/energest.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/timer.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/tcpip.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/autostart.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _gptrput.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/queuebuf.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/viztool.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip6.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/putchar.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-ds6-route.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/packetbuf.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/memb.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libint.lib
+                                          [ _mulint.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/leds-arch.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/smartrf-sensors.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/clock.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rtimer-arch.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _memcmp.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/stimer.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uart0.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-ds6.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/ringbuf.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsadd.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ crtxclear.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-icmp6.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/liblong.lib
+                                          [ _modulong.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/list.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-nd6.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/random.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl-ext-header.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ sprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/liblong.lib
+                                          [ _divulong.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _strncmp.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _sint2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fs2sint.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rimeaddr.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fs2uint.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl-icmp6.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _memset.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _memcpy.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/csma.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _bp.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsreturnval.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-debug.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ vprintf.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsswapargs.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/uip-udp-packet.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/ctimer.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _strlen.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/soc.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl-dag.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ gptr_cmp.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsdiv.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/mcs51.lib
+                                          [ crtstart.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rimestats.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/liblong.lib
+                                          [ _mullong.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _slong2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libint.lib
+                                          [ _moduint.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/nullrdc.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libint.lib
+                                          [ _divsint.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libint.lib
+                                          [ _divuint.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsrshift.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl-timers.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fs2slong.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/sicslowpan.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _startup.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/rpl-of-etx.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsget1arg.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ printf_large.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fs2ulong.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libsdcc.lib
+                                          [ _memmove.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fslt.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/neighbor-info.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/neighbor-attr.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fscmp.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/liblong.lib
+                                          [ _divslong.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/framer-802154.rel ]
+contiki-cc2530dk.lib                      [ obj_cc2530dk/frame802154.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _ulong2fs.rel ]
+C:\Program Files\SDCC\bin\..\lib\huge-stack-auto/libfloat.lib
+                                          [ _fsgt.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+
+User Base Address Definitions
+
+HOME = 0x0000
+ISEG = 0x0000
+BSEG = 0x0000
+BANK1=0x018000
+BANK2=0x028000
+BANK3=0x038000
+
+
